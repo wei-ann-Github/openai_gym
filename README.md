@@ -1,7 +1,7 @@
 # myAIRepoTemplate
 Template for my AI projects
 
-# Repo Structure
+## Repo Structure
 
 The branches follow the git-flow framework.
 
@@ -15,7 +15,7 @@ The branches follow the git-flow framework.
 - bugfix
 - release
 
-# Directory Structure
+## Directory Structure
 
 ROOT
 .
@@ -47,7 +47,16 @@ ROOT
 |   +-- _functional
 |      +-- __init__.py
 
+## Instructions
 
-# Version
+### Steps to setup application on NGINX
+
+Ref: https://faun.pub/deploy-flask-app-with-nginx-using-gunicorn-7fda4f50066a
+1. Edit all fields in app.service.
+1. Edit fields in nginx.conf as appropriate. E.g. `server_name` and `proxy_pass`
+1. Run `./setup.sh`
+
+## Version
 
 - V1.X.X (Tags:)
+    - [Not tested] Added files for nginx deployment. Ref: https://faun.pub/deploy-flask-app-with-nginx-using-gunicorn-7fda4f50066a
