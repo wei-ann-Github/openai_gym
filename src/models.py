@@ -9,20 +9,20 @@ class TorchModelTemplate(nn.Module):
         """ The parameters of each layer in the touch model are expected. """
         pass
 
-    def forward(self, data, criterion=None):
+    def forward(self, source, targets, criterion=None):
         """ Returns the output of running data through the model.
         If the criterion function is given, the logits and loss
         of the model is returned, else, only the logits are returned.
 
         Args:
-            data - The independent variables.
+            source, targets - The independent and dependent variables respectively.
             criterion - the criterion function for calculating loss.
 
         Returns
         """
         logits = None  # TODO: Implement data passing through the layers.
         if criterion is not None:
-            loss = criterion(logits)
+            loss = criterion(logits, targets)
 
             return logits, loss
         else:

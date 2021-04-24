@@ -62,3 +62,4 @@ Ref: https://faun.pub/deploy-flask-app-with-nginx-using-gunicorn-7fda4f50066a
     - [Not tested] Added files for nginx deployment. Ref: https://faun.pub/deploy-flask-app-with-nginx-using-gunicorn-7fda4f50066a
     - helper function framework for pytorch training.
     - framework for defining torch model.
+    - Add code to utilize hugging face's accelerate library [link](https://github.com/huggingface/accelerate)
