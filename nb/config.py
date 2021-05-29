@@ -11,7 +11,9 @@ import torch
 import torchtext
 
 ROOT = Path('../')
+sys.path.append(ROOT.__str__())
+
+from src import *
+
 DATADIR = ROOT / 'data'
 MODELDIR = ROOT / 'models'
-
-sys.path.append(ROOT.__str__())

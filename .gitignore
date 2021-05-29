@@ -140,3 +140,8 @@ dmypy.json
 # Redundant files
 .DS_Store
 */.DS_Store
+data/
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+nb/udemy_lazy_programmer/

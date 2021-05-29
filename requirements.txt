@@ -4,5 +4,6 @@ matplotlib
 mlflow
 numpy
 scikit-learn
-torch>=1.4+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch>=1.4+cu111 
 accelerate
