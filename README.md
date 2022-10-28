@@ -63,3 +63,5 @@ Ref: https://faun.pub/deploy-flask-app-with-nginx-using-gunicorn-7fda4f50066a
     - helper function framework for pytorch training.
     - framework for defining torch model.
     - Add code to utilize hugging face's accelerate library [link](https://github.com/huggingface/accelerate)
+    - Add files for formating. Uses flake8  for linting, black  and isort for formating.
+
