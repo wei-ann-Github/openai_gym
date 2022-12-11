@@ -59,8 +59,22 @@ conda env create -f enviroment.yaml
 conda activate openai_gym
 pip install -r requirements.txt
 ```
+Install OpenAI Baselines library:
+```
+cd ..
+git clone https://github.com/openai/baselines.git
+cd baselines
+pip install -e .
+```
 
 
 ## Version
 
 TBA
+
+## Resources
+
+- https://www.markiiisys.com/blog/reinforcement-learning-with-openai-gym-and-baselines/
+- Chapter on Connect 4 - https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On-Second-Edition/tree/master/Chapter23
+- https://www.gymlibrary.dev/content/tutorials/
+- https://towardsdatascience.com/using-pettingzoo-with-rllib-for-multi-agent-deep-reinforcement-learning-5ff47c677abd

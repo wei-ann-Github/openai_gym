@@ -1,10 +1,8 @@
 flake8
 flask
-pandas
-matplotlib
 mlflow
-numpy
-scikit-learn
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch>=1.4+cu111 
-accelerate
+gymnasium[classic]
+pettingzoo[classic]
+--extra-index-url https://download.pytorch.org/whl/cu117/
+torch
+tianshou
