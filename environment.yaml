@@ -1,8 +1,8 @@
-name: <your_env_name>
+name: openai_gym
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.9
   - click
   - jupyter
   - jedi
